@@ -6,6 +6,61 @@
   <title> Regístrate - Pide-Cola 2.0</title>
 </head>
 <body>
+  <form action="./main.html">
+    <div class="logo">
+      <h1>PIDE-COLA 2.0</h1>
+    </div>
+
+    <div id="datos">
+      <label><b>NOMBRE COMPLETO</b></label>
+      <input type="text" placeholder="Ingresar nombre completo" name="nombreCompleto" required><br>
+      <label><b>NOMBRE DE USUARIO</b></label>
+      <input type="text" placeholder="Ingresar usuario" name="Usuario" required><br>
+      <label><b>NÚMERO DE CÉDULA</b></label>
+      <input type="text" placeholder="Ingresar cédula" name="cedula" required><br>
+      <label><b>CONTRASEÑA</b></label>
+      <input type="password" placeholder="Ingresar contraseña" name="password" required><br>
+      <label><b>REPITA CONTASEÑA</b></label>
+      <input type="password" placeholder="Verificar contraseña" name="password2" required><br>
+      <label><b>EMAIL</b></label>
+      <input type="text" placeholder="Ingresar email" name="email" required><br>
+      <label><b>CARRERA</b></label><br>
+      <select>
+        <option value="" selected disabled hidden>Elige carrera</option>
+        <option value="carrera">Administración y Contaduría</option>
+        <option value="carrera">Ciencias Sociales</option>
+        <option value="carrera">Economía</option>
+        <option value="carrera">Comunicación Social</option>
+        <option value="carrera">Educación</option>
+        <option value="carrera">Filosofía</option>
+        <option value="carrera">Letras</option>
+        <option value="carrera">Psicología</option>
+        <option value="carrera">Derecho</option>
+        <option value="carrera">Teología</option>
+        <option value="carrera">Ingeniería Civil</option>
+        <option value="carrera">Ingeniería Industrial</option>
+        <option value="carrera">Ingeniería Informática</option>
+        <option value="carrera">Ingeniería en Telecomunicaciones</option>
+        <option value="carrera">Postgrado</option>
+      </select><br>
+      <label><b>LUGAR DE RESIDENCIA</b></label>
+      <input type="text" placeholder="Ingresar donde vives" name="residencia" required><br>
+      <input type="radio" name="cola" id="darCola" required>
+      <label for="darCola"><b>DAR COLA</b></label><br>
+      <input type="radio" name="cola" id="pedirCola" required>
+      <label for="pedirCola"><b>PEDIR COLA</b></label><br>
+    </div>
+
+    <div>
+      <button type="submit">REGISTRARSE</button>
+    </div>
+
+    <div class="derechos">
+      <h1>PPC C.A, ALL RIGHTS RESERVED</h1>
+    </div>
+  </form>
+
+
   <div id="fondo">
     <img src="./../assets/ucab.jpg" alt="">
   </div>
