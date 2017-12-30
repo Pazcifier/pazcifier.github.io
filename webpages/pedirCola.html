@@ -21,8 +21,46 @@
     <a href="./../index.html">CERRAR SESIÓN</a>
   </div>
 
-  <div class="main">
+  <div class="mainPedirDar">
+    <h1>PEDIR COLA</h1>
+    <form action="./elegirPedirCola.html">
+      <label><b>¿A DÓNDE TE DIRIGES?</b></label><br>
+      <input type="text" placeholder="Lugar de destino" required><br>
+      <label><b>HORA DE SALIDA</b></label><br>
+      <select>
+        <option value="" selected disabled hidden>Elige tu hora de salida</option>
+        <option value="Hora">8:00AM</option>
+        <option value="Hora">9:00AM</option>
+        <option value="Hora">10:00AM</option>
+        <option value="Hora">11:00AM</option>
+        <option value="Hora">12:00PM</option>
+        <option value="Hora">1:00PM</option>
+        <option value="Hora">2:00PM</option>
+        <option value="Hora">3:00PM</option>
+        <option value="Hora">4:00PM</option>
+        <option value="Hora">5:00PM</option>
+        <option value="Hora">6:00PM</option>
+        <option value="Hora">7:00PM</option>
+        <option value="Hora">8:00PM</option>
+      </select><br>
+      <label><b>¿CUÁNTOS VAN CONTIGO?</b></label><br>
+      <select>
+        <option value="" selected disabled hidden>Elige (sin contarte) cuántas personas van contigo</option>
+        <option value="cantidad">0</option>
+        <option value="cantidad">1</option>
+        <option value="cantidad">2</option>
+        <option value="cantidad">3</option>
+        <option value="cantidad">4</option>
+      </select>
 
+      <div>
+        <button type="submit">SIGUIENTE</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="footer">
+    <p class="textoFooter">PPC C.A, ALL RIGHTS RESERVED</p>
   </div>
 
 </body>
