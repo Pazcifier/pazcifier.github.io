@@ -1,0 +1,68 @@
+form
+{
+  background-color: white;
+  border: 5px;
+  border-color: green;
+  border-style: solid;
+  position: relative;
+  z-index: 1;
+  height: 50%;
+  width: 50%;
+  left: 25%;
+}
+
+input[type=text], input[type=password]
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button
+{
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+#fondo
+{
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  height: 200%;
+  width: 200%;
+}
+
+#fondo img
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  min-width: 50%;
+  min-height: 50%;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+#datos b
+{
+  margin-left: 5px; 
+}
+
+.logo
+{
+  font-family: arial;
+  font-size: 40px;
+  text-align: center;
+}
