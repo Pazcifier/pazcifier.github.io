@@ -1,0 +1,177 @@
+#textoImagen
+{
+  float: left;
+}
+
+#textoImagen h3
+{
+  margin-left: 20px;
+}
+
+#perfil
+{
+  margin-left: 150px;
+  margin-top: 125px;
+}
+
+.main
+{
+  margin-top: 100px;
+  margin-left: 240px;
+  padding: 0px 10px;
+}
+
+.main img
+{
+  margin-right: 10px;
+}
+
+.main h3
+{
+  margin-bottom: -2px;
+}
+
+.main p
+{
+  font-family: arial;
+  margin-top: -10px;
+}
+
+.main h1
+{
+  text-align: center;
+  font-family: arial;
+}
+
+.columna
+{
+  float: left;
+  position: relative;
+  right: -15%;
+  margin-left: 20px;
+  padding: 10px;
+  width: 20%;
+  height: 240px;
+  background-color: #00CC66;
+}
+
+.columna p
+{
+  text-align: justify;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.columna h3
+{
+  text-align: center;
+  color: white;
+  font-family: Arial;
+}
+
+.columna a
+{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  font-family: arial;
+  text-align: center;
+}
+
+.columna a:hover
+{
+  color: #00994C;
+}
+
+.otrosBotones
+{
+  float: left;
+  position: relative;
+  padding: 10px;
+  width: 97px;
+  height: 70px;
+  background-color: #00CC66;
+  top: 60px;
+  right: 360px;
+}
+
+.otrosBotones img
+{
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.topbar
+{
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 80px;
+  background-color: #00CC66;
+  top: 0;
+  margin-left: 240px;
+}
+
+.topbar a
+{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  font-family: arial;
+  text-align: center;
+  margin-right: 240px;
+}
+
+.topbar a:hover
+{
+  color: #00994C;
+}
+
+.sidebar
+{
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #00CC66;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar h4
+{
+  margin-left: 20px;
+  font-size: 25px;
+  color: white;
+  display: block;
+  font-family: arial;
+}
+
+.sidebar img
+{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+.sidebar a
+{
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  font-family: arial;
+}
+
+.sidebar a:hover
+{
+  color: #00994C;
+}
