@@ -225,3 +225,42 @@ button:hover
   font-family: arial;
   font-size: 10px;
 }
+
+.usuario
+{
+  width: 250px;
+  height: 150px;
+  background-color: #00CC66;
+  float: left;
+  margin: 2px;
+}
+
+.usuario img
+{
+  float: left;
+  margin-left: 10px;
+}
+
+.usuario p
+{
+  font-family: arial;
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.usuario h5
+{
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-family: arial;
+}
+
+.usuario button
+{
+  background-color: #00994C;
+  margin-left: 50%;
+}
