@@ -120,6 +120,12 @@ button:hover
   color: #00994C;
 }
 
+.botonesRedes
+{
+  margin-left: 49%;
+  margin-top: -70px;
+}
+
 .otrosBotones
 {
   float: left;
@@ -136,6 +142,30 @@ button:hover
 {
   margin-top: 10px;
   margin-left: 25px;
+}
+
+.reseña
+{
+  height: 100px;
+  width: 400px;
+  background-color: #F2F2F2;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #C0C0C0;
+  margin-top: 200px;
+  margin-left: 100px
+}
+
+.reseña p
+{
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.reseña button
+{
+  margin-top: 17%;
+  float: right;
 }
 
 .topbar
@@ -263,4 +293,72 @@ button:hover
 {
   background-color: #00994C;
   margin-left: 50%;
+}
+
+.chat
+{
+  width: 450px;
+  height: 350px;
+  float: right;
+  margin-top: -150px;
+}
+
+.chatBox
+{
+  border: 2px solid;
+  background-color: #CCFF99;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0;
+  border-color: #66FF66;
+}
+
+.azul
+{
+  background-color: #99FFFF;
+  border-color: #66FFFF;
+}
+
+.gris
+{
+  background-color: #F2F2F2;
+  border-color: #C0C0C0;
+  margin-bottom: 50px;
+}
+
+.chatBox::after
+{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.chatBox img
+{
+  float: left;
+  max-width: 80px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.chatBox img.derecha
+{
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+.tiempoI
+{
+  float: right;
+  color: #999;
+  margin-top: 50px;
+}
+
+.tiempoD
+{
+  float: left;
+  color: #999;
+  margin-top: 50px;
 }
