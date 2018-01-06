@@ -1,19 +1,123 @@
 <!DOCTYPE html>
 <html lang="es">
-<link rel="stylesheet" href="./styles/styleIndex.css" type='text/css'>
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Bienvenido - Pide-Cola 2.0</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pide Cola 2.0</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-  <div class="barraSuperior">
-    <ul>
-      <li class="Home"> Pide-Cola 2.0 </li>
-      <li class="botonLoginRegister"><a href="./webpages/register.html"> Regístrate </a></li>
-      <li class="botonLoginRegister"><a href="./webpages/login.html"> Ingresar </a></li>
-    </ul>
-  </div>
-</body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-pide">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">Pide Cola 2.0</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navNavbar"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item ">
+            <a href="./webpages/login.html" class="nav-link">Ingresar</a>
+          </li>
+          <li class="nav-item">
+            <a href="./webpages/register.html" class="nav-link">Registrarse</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
+  <!-- SHOWCASE SLIDER -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right  mb-5 text-black">
+              <h1 class="display-3 text-black">Pide cola 2.0</h1>
+              <p class="lead">Web app para facilitar el uso del pide cola</p>
+              <a href="./webpages/login.html" class="btn btn-danger btn-lg">Ingresar</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block mb-5">
+              <h1 class="display-3">Pide la cola</h1>
+              <p class="lead"></p>
+              <a href="./webpages/register.html" class="btn btn-primary btn-lg">Registrarse</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Da la cola</h1>
+              <p class="lead"></p>
+              <a href="./webpages/register.html" class="btn btn-success btn-lg">Registrarse</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+
+      <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+  <section id="staff" class="py-5 text-center bg-light text-black">
+    <div class="container">
+      <h1>Unete!</h1>
+      <hr>
+      <div class="row list-inline">
+        <div class="col-md-3">
+          <h4>Pide la cola</h4>
+          <img src="img/elipse1.jpg" alt="" class="img-fluid rounded-circle mb-2">
+          <small class="list-inline-item">Reduce el tiempo de espera para que te den la cola!</small>
+        </div>
+        <div class="col-md-3">
+          <h4>Da la cola</h4>
+          <img src="img/elipse2.jpg" alt="" class="img-fluid rounded-circle mb-2">
+          <small class="list-inline-item">Conoce gente en el camino!</small>
+        </div>
+        <div class="col-md-3">
+          <h4>Seguro</h4>
+          <img src="img/elipse3.png" alt="" class="img-fluid rounded-circle mb-2">
+          <small class="list-inline-item">Solo personas pertenecientes a la universidad</small>
+        </div>
+        <div class="col-md-3">
+          <h4>Perfiles</h4>
+          <img src="img/elipse4.png" alt="" class="img-fluid rounded-circle mb-2">
+          <small class="list-inline-item">Conoce a quien le daras o pediras la cola, lee sus reseñas!</small>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright 2017 &copy; Ppc</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
 </html>
