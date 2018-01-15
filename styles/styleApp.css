@@ -212,6 +212,8 @@ button:hover
 .sidebar h4
 {
   margin-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 50px;
   font-size: 25px;
   color: white;
   display: block;
@@ -259,7 +261,7 @@ button:hover
 .usuario
 {
   width: 250px;
-  height: 150px;
+  height: 200px;
   background-color: #00CC66;
   float: left;
   margin: 2px;

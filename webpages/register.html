@@ -1,61 +1,72 @@
 <!DOCTYPE html>
 <html lang="es">
 <link rel="stylesheet" href="./../styles/styleLoginRegister.css" type='text/css'>
+
 <head>
   <meta charset="UTF-8">
-  <title> Regístrate - Pide-Cola 2.0</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Registrate - Pide-Cola 2.0 </title>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
   <form action="./main.html">
     <div class="logo">
       <h1>PIDE-COLA 2.0</h1>
     </div>
 
-    <div id="datos">
-      <label><b>NOMBRE COMPLETO</b></label>
-      <input type="text" placeholder="Ingresar nombre completo" name="nombreCompleto" required><br>
-      <label><b>NOMBRE DE USUARIO</b></label>
-      <input type="text" placeholder="Ingresar usuario" name="Usuario" required><br>
-      <label><b>NÚMERO DE CÉDULA</b></label>
-      <input type="text" placeholder="Ingresar cédula" name="cedula" required><br>
-      <label><b>CONTRASEÑA</b></label>
-      <input type="password" placeholder="Ingresar contraseña" name="password" required><br>
-      <label><b>REPITA CONTASEÑA</b></label>
-      <input type="password" placeholder="Verificar contraseña" name="password2" required><br>
-      <label><b>EMAIL</b></label>
-      <input type="text" placeholder="Ingresar email" name="email" required><br>
-      <label><b>EDAD</b></label>
-      <input type="text" placeholder="Ingresa edad" name="edad" required><br>
-      <label><b>CARRERA</b></label><br>
-      <select>
-        <option selected disabled hidden>Elige carrera</option>
-        <option value="carrera">Administración y Contaduría</option>
-        <option value="carrera">Ciencias Sociales</option>
-        <option value="carrera">Economía</option>
-        <option value="carrera">Comunicación Social</option>
-        <option value="carrera">Educación</option>
-        <option value="carrera">Filosofía</option>
-        <option value="carrera">Letras</option>
-        <option value="carrera">Psicología</option>
-        <option value="carrera">Derecho</option>
-        <option value="carrera">Teología</option>
-        <option value="carrera">Ingeniería Civil</option>
-        <option value="carrera">Ingeniería Industrial</option>
-        <option value="carrera">Ingeniería Informática</option>
-        <option value="carrera">Ingeniería en Telecomunicaciones</option>
-        <option value="carrera">Postgrado</option>
-      </select><br>
-      <label><b>LUGAR DE RESIDENCIA</b></label>
-      <input type="text" placeholder="Ingresar donde vives" name="residencia" required><br>
-      <input type="radio" name="cola" id="darCola" required>
-      <label for="darCola"><b>DAR COLA</b></label><br>
-      <input type="radio" name="cola" id="pedirCola" required>
-      <label for="pedirCola"><b>PEDIR COLA</b></label><br>
-    </div>
+    <div id="datos" class="form-group">
+      <label for="inputPassword5" class="mb-0"><b>Nombre</b></label>
+      <input type="text"  class="form-control" placeholder="nombre completo" aria-describedby="passwordHelpBlock" required>
+      <label for="inputPassword5" class="mb-0"><b>Nombre de usuario</b></label>
+      <input type="text" id="inputPassword5" class="form-control" placeholder="nombre de usuario o username" aria-describedby="passwordHelpBlock" required>
+      <label for="inputPassword5" class="mb-0"><b>Numero de cedula</b></label>
+      <input type="text" id="inputPassword5" class="form-control" placeholder="numero de cedula" aria-describedby="passwordHelpBlock" required>
+      <label for="inputPassword5" class="mb-0"><b>Contraseña</b></label>
+      <input type="password" id="inputPassword5" class="form-control" placeholder="contraseña" aria-describedby="passwordHelpBlock" required>
+      <small id="passwordHelpBlock" class="form-text text-light pl-3">La contraseña debe tener contener minimo 7 caracteres</small>
+      <label for="inputPassword5" class="mb-0"><b>Repita la contraseña</b></label>
+      <input type="password" id="inputPassword5" class="form-control" placeholder="contraseña" aria-describedby="passwordHelpBlock" required>
+      <label for="inputPassword5" class="mb-0"><b>Email</b></label>
+      <input type="text" id="inputPassword5" class="form-control" placeholder="email" aria-describedby="passwordHelpBlock" required>
+      <small id="passwordHelpBlock" class="form-text text-light pl-3">ingrese un email valido</small>
+      <label for="inputPassword5" class="mb-0"><b>Fecha de nacimiento</b></label>
+      <div class="col-10">
+        <input class="form-control text-muted" type="date" id="example-date-input" required>
+        </div>
+        <label for="inputPassword5" class="mb-0 text-light"><b>Carrera</b></label><br>
+        <div class="col-10">
+        <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+ <option selected class="text-muted">Choose...</option>
+<option value="carrera">Administración y Contaduría</option>
+<option value="carrera">Ciencias Sociales</option>
+<option value="carrera">Economía</option>
+<option value="carrera">Comunicación Social</option>
+<option value="carrera">Educación</option>
+<option value="carrera">Filosofía</option>
+<option value="carrera">Letras</option>
+<option value="carrera">Psicología</option>
+<option value="carrera">Derecho</option>
+<option value="carrera">Teología</option>
+<option value="carrera">Ingeniería Civil</option>
+<option value="carrera">Ingeniería Industrial</option>
+<option value="carrera">Ingeniería Informática</option>
+<option value="carrera">Ingeniería en Telecomunicaciones</option>
+<option value="carrera">Postgrado</option>
+</select><br>
+</div>
+        <label for="inputPassword5" class="mb-0  text-light"><b>Lugar de recidencia</b></label><br>
+        <input type="text" id="inputPassword5" class="form-control" placeholder="ingresa donde vives" aria-describedby="passwordHelpBlock">
+       <label class="form-check-label text-light">
+         <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+         Pedir cola </label>
+       <label class="form-check-label text-light">
+         <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">Dar cola</label>
 
-    <div>
-      <button type="submit">REGISTRARSE</button>
-    </div>
+  </div>
+     <button type="submit" class="btn btn-success ml-24">Registrarse</button>
 
     <div class="derechos">
       <h1>PPC C.A, ALL RIGHTS RESERVED</h1>
@@ -66,5 +77,9 @@
   <div id="fondo">
     <img src="./../assets/ucab.jpg" alt="">
   </div>
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
 </body>
+
 </html>

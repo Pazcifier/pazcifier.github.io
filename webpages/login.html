@@ -3,7 +3,11 @@
 <link rel="stylesheet" href="./../styles/styleLoginRegister.css" type='text/css'>
 <head>
   <meta charset="UTF-8">
-  <title> Ingresar - Pide-Cola 2.0</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> ingresar - Pide-Cola 2.0 </title>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
   <form action="./main.html">
@@ -16,10 +20,13 @@
       <input type="text" placeholder="Ingresar usuario o email" name="emailUsuario" required><br>
       <label><b>CONTRASEÑA</b></label>
       <input type="password" placeholder="Ingresar contraseña" name="contraseña" required><br>
-      <button type="submit">INICIAR SESIÓN</button>
-      <button>REGISTRARSE</button>
-      <input type="hidden" name="registro" value="./register.html">
-    </div>
+    </div>'
+    <div class="container">
+    <div class"row">
+      <a href="./main.html" class="btn btn-success ml-22" role="button">Ingresar</a>
+      <a href="./register.html" class="btn btn-success mr-5" role="button">Registrarse</a>
+  </div>
+</div>
 
     <div class="derechos">
       <h1>PPC C.A, ALL RIGHTS RESERVED</h1>
@@ -28,5 +35,8 @@
   <div id="fondo">
     <img src="./../assets/ucab.jpg" alt="">
   </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

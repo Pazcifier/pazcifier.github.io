@@ -4548,7 +4548,24 @@ a.bg-dark:focus, a.bg-dark:hover {
 
 .p-0 {
   padding: 0 !important; }
+.ml-22,
+.mx-5 {
+  margin-left: 22rem !important; }
 
+.p-0 {
+  padding: 0 !important; }
+  .ml-card,
+  .mx-5 {
+    margin-left: 5rem !important; }
+
+  .p-0 {
+    padding: 0 !important; }
+  .ml-24,
+  .mx-5 {
+    margin-left: 25rem !important; }
+
+  .p-0 {
+    padding: 0 !important; }
 .pt-0,
 .py-0 {
   padding-top: 0 !important; }
